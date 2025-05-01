@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    background-image: url(./Images/pkmnquiz_fix.png);
+    background-repeat: repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+}
+.quotes {
+    width: 500px;
+    /* opacity: 70%; */
+    background: linear-gradient(to right, skyblue, darkorchid);
+    border-color:transparent;
+    border-style: solid;
+    border-radius: 10px;
+    position: sticky;
+    margin: 5px;
+}
+#birthdaycard {
+    display: block;
+    width: 500px;
+    margin: auto;
+}
+#crawlButton {
+    border-color: transparent;
+    border-radius: 5px;
+}
+#crawl {
+    width: 500px;
+}
