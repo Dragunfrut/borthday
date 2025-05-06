@@ -17,6 +17,9 @@ body {
     position: sticky;
     margin: 5px;
 }
+.fadeInCrawl {
+    animation: fadeIn 7s;
+}
 #birthdaycard {
     display: block;
     width: 500px;

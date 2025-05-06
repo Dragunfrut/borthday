@@ -1,12 +1,16 @@
-myButton = document.querySelector("#crawlButton");
-let myImg = document.querySelector("#crawl");
+const crawlButton = document.getElementById("crawlButton");
+const sawanoAudio = document.getElementById("sawano");
+const crawlIMG = document.getElementById("crawl");
 
-myButton.addEventListener("click", () => {
-
-    if(myImg.style.visibility == "hidden"){
-        myImg.style.visibility = "visible";
+crawlButton.addEventListener("click", () => {
+    if(crawlIMG.style.visibility == "hidden") {
+        crawlIMG.style.visibility = "visible";
+        sawanoAudio.play();
+        sawanoAudio.currentTime = 36;
     }
     else{
-        myImg.style.visibility = "hidden";
+        crawlIMG.style.visibility = "hidden";
+        sawanoAudio.pause();
+        sawanoAudio.currentTime = 36;
     }
 })
