@@ -8,7 +8,7 @@ body {
     margin: 0px;
 }
 .quotes {
-    width: 500px;
+    width: 34%;
     /* opacity: 70%; */
     background: linear-gradient(to right, skyblue, darkorchid);
     border-color:transparent;
@@ -17,12 +17,9 @@ body {
     position: sticky;
     margin: 5px;
 }
-.fadeInCrawl {
-    animation: fadeIn 7s;
-}
 #birthdaycard {
     display: block;
-    width: 500px;
+    /* width: 500px; */
     margin: auto;
 }
 #crawlButton {
@@ -30,5 +27,11 @@ body {
     border-radius: 5px;
 }
 #crawl {
-    width: 500px;
+    width: 100%;
+    opacity: 0;
+
+}
+#crawl.in {
+    opacity: 1;
+    transition: opacity 6s ease-in 4s;
 }
