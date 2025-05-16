@@ -6,6 +6,8 @@ body {
     background-position: center;
     background-size: cover;
     margin: 0px;
+    font-family: "Comic Sans MS", "Comic Sans";
+    font-size: 14px;
 }
 .quotes {
     width: 34%;
@@ -14,22 +16,29 @@ body {
     border-color:transparent;
     border-style: solid;
     border-radius: 10px;
-    position: sticky;
+    position: fixed;
+    /* position: sticky; */
+    /* display: inline-block; */
     margin: 5px;
 }
+p {
+    margin: 1%;
+}
 #birthdaycard {
+    /* display: inline-block; */
     display: block;
-    /* width: 500px; */
     margin: auto;
 }
 #crawlButton {
     border-color: transparent;
     border-radius: 5px;
+    margin: 1%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 14px;
 }
 #crawl {
     width: 100%;
     opacity: 0;
-
 }
 #crawl.in {
     opacity: 1;
