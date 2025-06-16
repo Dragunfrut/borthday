@@ -13,8 +13,6 @@ body {
     width: 34%;
     /* opacity: 70%; */
     background: linear-gradient(to right, skyblue, darkorchid);
-    border-color:transparent;
-    border-style: solid;
     border-radius: 10px;
     position: fixed;
     /* position: sticky; */
@@ -29,12 +27,42 @@ p {
     display: block;
     margin: auto;
 }
+/* crappy but kind of funny rgb button
 #crawlButton {
-    border-color: transparent;
+    background: linear-gradient(155deg, #020024 0%, red 0%, #ffab00 12%, #e0ff00 24%, #00ff08 36%, #00e4ff 48%, #0005ff 60%, #fe00e7 72%, red 84%, #ffa200 96%);
     border-radius: 5px;
+    border: none;
+    margin: 1%;
+    animation: gradient 30s linear infinite;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 14px;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0%;
+    }
+    50% {
+        background-position: 18.75em, 31.25em;
+    }
+    100% {
+        background-position: 0.1em, 0.1em;
+    }
+} */
+#crawlButton {
+    cursor: pointer;
+    background: linear-gradient(110deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #2b1de8,#1ddde8, #dd00f3, #8600f3, #ff2400);
+    background-size: 1800% 1800%;
+    animation: rainbow 40s linear infinite;
+    border-radius: 5px;
+    border: none;
     margin: 1%;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-size: 14px;
+}
+@keyframes rainbow {
+    0% {background-position: 0 0;}
+    100% {background-position: 400% 0;}
+    0% {background-position: 0 0;}
 }
 #crawl {
     width: 100%;
