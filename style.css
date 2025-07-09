@@ -22,6 +22,9 @@ body {
 p {
     margin: 1%;
 }
+.image {
+    width: 34%
+}
 #birthdaycard {
     /* display: inline-block; */
     display: block;
