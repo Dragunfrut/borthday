@@ -2,6 +2,7 @@ const crawlButton = document.getElementById("crawlButton");
 const sawanoAudio = document.getElementById("sawano");
 const crawlIMG = document.getElementById("crawl");
 const image = document.querySelector(".image");
+const birthday = document.querySelector(".birthday")
 
 crawlButton.addEventListener("click", () => {
     if(crawlIMG.className === "in") {
@@ -16,3 +17,4 @@ crawlButton.addEventListener("click", () => {
         sawanoAudio.currentTime = 37;
     }
 })
+

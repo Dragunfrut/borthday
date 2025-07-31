@@ -27,6 +27,9 @@ body {
 p {
     margin: 1%;
 }
+a {
+    margin: 1%
+}
 .image {
     order: -1;
     /* overflow: hidden; */
@@ -52,6 +55,12 @@ p {
     margin: 1%;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-size: 14px;
+}
+#birthdayButton {
+    cursor: pointer;
+    margin: 1%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 50px;
 }
 #crawl {
     width: 100%;
