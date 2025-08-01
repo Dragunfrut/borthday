@@ -70,6 +70,14 @@ a {
     opacity: 1;
     transition: opacity 6s ease-in 4s;
 }
+#fire {
+    width: 100%;
+    opacity: 0;
+}
+#fire.in {
+    opacity: 1;
+    transition: opacity 15s ease-in 1s;
+}
 @keyframes rainbow {
     0% {background-position: 0 0;}
     100% {background-position: 400% 0;}
